@@ -23,6 +23,10 @@ As usual for any wordpress extension, go to "Extensions / Add" in the admin menu
 
 Or you may also get the plugin as a zip file and upload it to your wordpress site by choosing "send" in the "Extension / Add" menu.
 
+== Upgrade Notice ==
+
+No upgrade yet...
+
 == Frequently Asked Questions ==
 
 1.  How do I integrate the map in an article or a post once it has been created in the admin menu ?
