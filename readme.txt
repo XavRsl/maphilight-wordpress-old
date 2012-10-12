@@ -5,7 +5,7 @@ Tags: maphilight, area, map
 Donate link: 
 Requires at least: 3.3
 Tested up to: 3.4.1
-Stable tag: 1.3
+Stable tag: 0.1
 License: GPLv2
 
 == Description ==
