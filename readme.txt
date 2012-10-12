@@ -1,6 +1,6 @@
 === MapHilight for Wordpress ===
 
-Contributors: xavier Roussel
+Contributors: Xavier Roussel
 Tags: maphilight, area, map
 Donate link: 
 Requires at least: 3.3
