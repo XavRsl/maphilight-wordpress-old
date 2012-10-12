@@ -1,0 +1,44 @@
+=== MapHilight for Wordpress ===
+
+Contributors: xavier Roussel
+Tags: maphilight, area, map
+Donate link: 
+Requires at least: 3.3
+Tested up to: 3.4.1
+Stable tag: 1.3
+License: GPLv2
+
+== Description ==
+
+MapHilight makes it easy to integrate the javascript needed to make your maps or images interactive. Based on the maphilight jQuery plugin, MapHilight allows you to customize a hover effect on your maps or images.
+Plugin uses jQuery plugin found here : https://github.com/kemayo/maphilight - MIT Licensed
+
+Use it in your Posts by adding the following shortcode : [maphilight]
+
+= Learn More =
+
+== Installation ==
+
+As usual for any wordpress extension, go to "Extensions / Add" in the admin menu and search for "maphilight". Then click on the "Install Now" link. Activate the extension once it's installed.
+
+Or you may also get the plugin as a zip file and upload it to your wordpress site by choosing "send" in the "Extension / Add" menu.
+
+== Frequently Asked Questions ==
+
+1.  How do I integrate the map in an article or a post once it has been created in the admin menu ?
+>  You only need to use the [maphilight] shortcode in your post or article and the map will appear. The javascript will only be loaded in your page if the shortcode is present.
+
+== Todo ==
+
+* Interactive map preview in admin
+* Add more options for area rendering
+
+== Screenshots ==
+
+1. An example of the "Advanced Options" tag in the "Options Check" theme using this plugin.
+
+== Changelog ==
+
+= 0.1 =
+
+* Initial release
