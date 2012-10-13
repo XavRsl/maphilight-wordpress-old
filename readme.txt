@@ -39,7 +39,7 @@ No upgrade yet...
 
 == Screenshots ==
 
-1. An example of the "Advanced Options" tag in the "Options Check" theme using this plugin.
+1.   An example of the "General" admin parameters page.
 
 == Changelog ==
 
