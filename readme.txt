@@ -4,7 +4,7 @@ Contributors: Xavier Roussel
 Tags: maphilight, area, map
 Donate link: 
 Requires at least: 3.3
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: 0.1
 License: GPLv2
 
