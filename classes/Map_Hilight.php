@@ -128,8 +128,8 @@ class Map_Hilight {
 		// echo img tag with corresponding src, usemap, name
 		// echo map tag with corresponding name
 		// echo the given areas (stripslashes as wordpress \ when saving)
-		$html = '<img src="'.$options['map_url'].'" usemap="#map" id="map">';
-		$html .= '<map name="map">';
+		$html = '<img src="'.$options['map_url'].'" usemap="#map-area" id="map" />';
+		$html .= '<map name="map-area">';
 		$html .= stripslashes($options['map_area_code']);
 		$html .= '</map>';
 

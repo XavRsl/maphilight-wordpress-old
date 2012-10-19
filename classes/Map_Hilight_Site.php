@@ -29,8 +29,8 @@ class Map_Hilight_Site {
 
 		// Scripts
 		wp_register_script(
-			'maphilight' , 
-			plugins_url('javascript/jquery.maphilight.min.js', Map_Hilight::$file),
+			'imagemapster' , 
+			plugins_url('javascript/jquery.imagemapster.min.js', Map_Hilight::$file),
 			array('jquery')
 		);
 
@@ -38,7 +38,7 @@ class Map_Hilight_Site {
 		wp_register_script(
 			'map-hilight-app' , 
 			plugins_url('javascript/app.js', Map_Hilight::$file) ,
-			array('jquery', 'maphilight')
+			array('jquery', 'imagemapster')
 		);
 	}
 
@@ -52,7 +52,7 @@ class Map_Hilight_Site {
 
 		// As of WordPress 3.3 wp_enqueue_script() can be called mid-page (in the HTML body). 
 		// This will load the script in the footer. 
-		wp_enqueue_script('maphilight');
+		wp_enqueue_script('imagemapster');
 		wp_enqueue_script('map-hilight-app');
 		wp_localize_script('map-hilight-app', 'map_hilight_args', Map_Hilight::getOptions());
 	}
@@ -66,7 +66,7 @@ class Map_Hilight_Site {
 	 */
 	public static function printScripts() {
 		if(self::$printScripts) {
-			wp_print_scripts(array('maphilight', 'map-hilight-app'));
+			wp_print_scripts(array('imagemapster', 'map-hilight-app'));
 		}
 	}
 }
