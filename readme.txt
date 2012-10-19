@@ -5,13 +5,14 @@ Tags: maphilight, area, map
 Donate link: 
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2
 
 == Description ==
 
-MapHilight makes it easy to integrate the javascript needed to make your maps or images interactive. Based on the maphilight jQuery plugin, MapHilight allows you to customize a hover effect on your maps or images.
-Plugin uses jQuery plugin found here : https://github.com/kemayo/maphilight - MIT Licensed
+MapHilight makes it easy to integrate the javascript needed to make your maps or images interactive. Based on the imagemapster jQuery plugin, MapHilight allows you to customize a hover effect on your maps or images.
+Plugin uses jQuery plugin found here : https://github.com/jamietre/imagemapster
+Thanks jmcphail for pointing it out on this plugin's Wordpress forum.
 
 Use it in your Posts by adding the following shortcode : [maphilight]
 
@@ -42,6 +43,10 @@ No upgrade yet...
 1.   An example of the "General" admin parameters page.
 
 == Changelog ==
+
+= 0.2 =
+
+* Changed jQuery plugin mahilight for imagemapster. Allowing responsive maps !
 
 = 0.1 =
 
